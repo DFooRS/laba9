@@ -45,7 +45,7 @@ if __name__ == '__main__':
             school[class_num] = pupils
 
         elif command == "list":
-            for i, item in enumerate(school):
+            for item in school:
                 print(f"Класс {item}, учеников {school[item]}")
 
         elif command == 'delete':
