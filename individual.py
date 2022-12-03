@@ -48,7 +48,7 @@ if __name__ == '__main__':
                     '| {:^25} | {:^15} | {:^14} |'.format(
                         product.get('product', ''),
                         product.get('shop',''),
-                        product.get('cost','')
+                        product.get('cost', 0)
                     )
                 )
             print(line)
@@ -63,7 +63,7 @@ if __name__ == '__main__':
                         '| {:^25} | {:^15} | {:^14} |'.format(
                             product.get('product', ''),
                             product.get('shop', ''),
-                            product.get('cost', '')
+                            product.get('cost', 0)
                         )
                     )
                     n += 1
