@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
         elif command == 'count':
             count = 0
-            for i, item in enumerate(school):
+            for item in school:
                 count += school[item]
             print(count)
 
